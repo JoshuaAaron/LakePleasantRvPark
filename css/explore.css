@@ -1,0 +1,39 @@
+/* For explore specific styles */
+/***CONTENT CONTAINERS***/
+/* Box grid layout */
+.Box1 {
+  background-color: #DCDCDC;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.Box2 {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+/* column 1 syles */
+.col1 {
+  padding: 50px;
+}
+/* column 2 (image) styles */
+.col2 {
+  text-align: center;
+  padding: 50px;
+}
+/* font resizing */
+.col1 p, .col2 p {
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.resize {
+  width: 500px;
+  height: 400px;
+  border-radius: 80px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+}

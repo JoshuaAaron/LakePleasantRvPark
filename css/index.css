@@ -1,0 +1,171 @@
+/* For index specific styles */
+/* Featured image link styles */
+
+.welcome {
+  background-color: #DCDCDC;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.col1 {
+  padding: 50px;
+}
+
+.col2 {
+  padding: 50px;
+  text-align: center;
+}
+
+.resize {
+  width: 100%;
+  border-radius: 80px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.favspot-wrap {
+  text-align: center;
+  margin: 50px;
+}
+
+/* img drop shadows and margins */
+.favimg {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.trails {
+  width: 1208px;
+  max-width: 90%;
+  margin-top: 30px;
+}
+
+.spots {
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+}
+/* END FEATURED LINKS STYLES */
+/* Amenities Styles */
+.amenities {
+  text-align: center;
+  background-color: rgb(235,235,235);
+}
+/* amenities img width */
+.amenitiesimg {
+  width: 80%;
+  margin: 50px 0px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+/* Testimonials styles */
+.reviews {
+  background-image: url("../img/footerbgimgalt2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/*Testimonials background color */
+.reviewsbg {
+  background-color: rgba(118,155,62, 0.7);
+  padding: 50px;
+}
+/* Testimonials heading */
+#slidetitle {
+text-align: center;
+position: relative;
+margin: 0px 10px;
+color: #00184A;
+font-size: 40px;
+}
+/* Testimonials content wrapper */
+.slide-wrap {
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 40px;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 10px 22px;
+  color: #A18C51;
+  font-weight: bold;
+  font-size: 30px;
+  user-select: none;
+  background-color: rgba(0,0,0,0.4);
+}
+/* prev button styles */
+.prev {
+  position: absolute;
+  left: 1%;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+/* next button styles */
+.next {
+  position: absolute;
+  right: 1%;
+  margin-left: 10px;
+  border-radius: 50px;
+}
+/* prev, next hover styles */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+}
+/* Testimonials content */
+.reviews p {
+  font-family: "Bitter", Times, serif;
+  color: #A18C51;
+  font-weight: 500;
+}
+/*Testimonial author styles */
+.author {
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 500;
+  color: #00184A;
+  font-style: italic;
+}
+/* For smaller devices */
+@media screen and (max-width: 600px) {
+.slide-wrap, .slide-wrap p {
+  font-size: 17px;
+  margin: 0px 5%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+.slide-wrap, .slide-wrap p {
+  font-size: 14px;
+  margin: 0px 3%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+  header h1 {
+    font-size: 60px;
+  }
+  header h2 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  header h1 {
+    font-size: 50px;
+  }
+  header h2 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header h1 {
+    font-size: 40px;
+  }
+  header h2 {
+    font-size: 12px;
+  }
+}
